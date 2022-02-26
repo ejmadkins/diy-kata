@@ -3,8 +3,4 @@ const humanCatDogYears = (number) => {
   return [number, 24 + (number - 2) * 4, 24 + (number - 2) * 5];
 };
 
-console.log(humanCatDogYears(10));
-console.log(humanCatDogYears(2));
-console.log(humanCatDogYears(1));
-
 module.exports = humanCatDogYears;
