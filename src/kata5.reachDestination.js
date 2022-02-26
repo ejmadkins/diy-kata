@@ -3,6 +3,4 @@ const reachDestination = (distance, speed) => {
     2} hours.`;
 };
 
-console.log(reachDestination(44, 10));
-
 module.exports = reachDestination;
